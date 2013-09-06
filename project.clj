@@ -5,4 +5,4 @@ http://code.google.com/p/javaewah/"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.4.0"]
-                 [com.googlecode.javaewah/JavaEWAH "0.6.8"]])
+                 [com.googlecode.javaewah/JavaEWAH "0.7.3"]])

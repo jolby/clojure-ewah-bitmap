@@ -18,5 +18,4 @@
 (defn bitseq
   "Return a seq of indexes of set bits for this bitmap"
   [^com.googlecode.javaewah.EWAHCompressedBitmap bm]
-  (let [itr (.intIterator bm)]
-    (bit-iter-seq itr)))
+  (bit-iter-seq (.intIterator bm)))
